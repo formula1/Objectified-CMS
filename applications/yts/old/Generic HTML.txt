@@ -1,0 +1,40 @@
+<script src="http://fightclub.vg/swfobject/swfobject.js" type="text/javascript"></script>
+<div>
+<iframe id="ghfa" style="height:0px;width:0px;border:none;display:none;inline" ></iframe>
+<div style="height:100px" id="info mang"></div>
+
+<div id="ytapiplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+
+<!-- Buttons etc. for the movie -->
+
+<div style="text-align: center; font-size: 10px; border: 1px outset silver; padding-bottom: 3px; background: white;"><a onclick="play();" href="javascript:void(0);"><img style="border: 0;" title="Play" src="play.jpg" alt="" height="14" /></a><a onclick="pause();" href="javascript:void(0);"><img style="border: 0;" title="Pause" src="pause.jpg" alt="" height="14" /></a><a onclick="seekEnd();" href="javascript:void(0);"><img style="border: 0;" title="End" src="End.jpg" alt="" height="14" /></a>
+
+<div id="playerstate"></div>
+ etc.</div>
+</div>
+<script src="http://fightclub.vg/yts/youtubefunctions.js" type="text/javascript"></script><a onclick="streamplz()"><h1>Stream</h1></a><script type="text/javascript">// <![CDATA[
+var width_of_movie=screen.availWidth/1.33+"px"; var height_of_movie=screen.availHeight/1.79+"px"; var params = { allowScriptAccess: "always", bgcolor: "#cccccc" }; var atts = { id: "myytplayer" }; swfobject.embedSWF("http://www.youtube.com/apiplayer?enablejsapi=1&#038;playerapiid=ytplayer", "ytapiplayer", width_of_movie, height_of_movie, "8", null, null, params, atts); 
+// ]]></script>
+
+
+<div class="ytdived" style="height: 400px; width: 100%; float: bottom;">
+
+<div id="getter" style="float: left; height: 180px; width: 27%; overflow: auto; display: inline;">
+<ul id="uzerz" style="position: relative;"></ul>
+</div>
+
+<div style="float: right; height: 180px; width: 70%; display: inline;"> <a style="float: left;" onclick="nextTen(0, 'vigeos', 1)">previous 10</a> <a style="float: right;" onclick="nextTen(1, 'vigeos', 1)">next 10</a>
+<ul id="vigeos" style="height: 168px; width:80%; overflow: auto; float: left;"></ul>
+</div>
+
+<div style="float: bottom; height: 200px; width: 100%; display: inline;">
+<h1>Newest Videos</h1>
+<a style="float: left;" onclick="nextTen(0, 'newbies', 0)">previous 10</a> <a style="float: center;">loop</a> <a style="float: right;" onclick="nextTen(1, 'newbies', 0)">next 10</a>
+<ul id="newbies" style="height: 160px; width:80%; overflow: auto; float: bottom;"></ul>
+</div>
+
+</div>
+
+<script src="http://fightclub.vg/yts/youtubeobject.js" type="text/javascript"></script>
+
+<script src="/yts/youtubemenu.js" type="text/javascript"></script>

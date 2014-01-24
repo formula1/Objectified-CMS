@@ -1,0 +1,35 @@
+Login
+-Check what projects you have access to
+	-Display them as the project you'll be currently working on
+-Also check if you have the ability to add projects
+
+
+-If you have no projects and can't add
+	-Sorry, this is currently for developers only
+
+
+Select Project
+-if can edit-choose clock in
+-choose view timeline
+
+On clock in
+-save in sql the clock in time start
+-Run an ajax script every 5 seconds
+	-For each file in the project directory
+		-check last time it was modified
+		-if modified time > last modified time
+			-add a "file change" to timeline
+
+-choose Save Revision
+--Save all files as they currently are in sql
+
+
+
+Timeline
+-Timeline gets clockin and time of file changes
+
+for each clock in
+	-display a line representing the full amount of the clock in
+	-for each file change
+		-display a dot
+			-on dot hover-display name of file that was changed

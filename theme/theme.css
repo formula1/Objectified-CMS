@@ -1,0 +1,13 @@
+@import url('/theme/css/mobile.css') handheld;
+@import url('/theme/css/desktop.css') screen;
+
+body{position:relative;margin:0px;text-align:center;}
+
+ul{ list-style-type: none; padding: 0px; margin: 0px;}
+
+ul.stacked {position:relative;}
+ul.stacked>li{position:absolute;width:100%;height:100%}
+ul.horizontal>li, .inline{display:inline-block;}
+ul.vertical>li{display:block;}
+
+.phy_tree{position:absolute;left:5%;top:0px;z-index:-1;}

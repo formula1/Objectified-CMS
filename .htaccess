@@ -1,0 +1,9 @@
+AddType application/x-java-jnlp-file .jnlp
+
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{REQUEST_URI} !^/applications
+#RewriteCond %{REQUEST_URI} !^/theme
+RewriteCond %{REQUEST_URI} !\/public\/
+RewriteRule ^(.*) Core/initialize_variables.php [L]

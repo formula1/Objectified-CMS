@@ -1,0 +1,17 @@
+For the chat
+-Webworkers make an indefinite ajax call onload and whenever finishing
+--(webworker recieves a message)->Send that message to the dom
+
+Dom gets message from webworker,
+-Creates new text element, saying (unix)date/time, user and message
+-Displays it in the Chatbox
+
+
+
+Whenever a user posts a message
+-Send Ajax call with name, (unix)date/time and message
+
+
+
+PHP	-Saves Data
+	-Returns Data
